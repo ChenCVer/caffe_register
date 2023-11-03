@@ -1,0 +1,55 @@
+*.o
+*.a
+*.dSYM
+*.csv
+*.out
+gallery*
+
+# IDE generated #
+.vs/
+.vscode/
+
+# Clion
+.idea/
+cmake-build-debug/
+
+# compile
+build/
+build_vs/
+bin/
+
+# OS Generated #
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+*.swp
+
+# folder
+data/depth_calculation/*
+data/face_detect_ir/*
+data/face_headpose_ir/*
+data/face_living_depth/*
+data/face_living_ir/*
+data/face_local_cover_ir/*
+data/face_mask_glass_lmk_ir/*
+data/face_recognition_ir/*
+data/face_total_process_alg/*
+data/test/*
+
+# log
+logs/info*
+/3rdparty/win
+
+# images in outputs
+outputs/*/*.png
+
+# images in data
+# data/*.png
+# data/*/*.png
+# data/*/*/*.png
+
+/feature
+feature
+
+profiler.txt
